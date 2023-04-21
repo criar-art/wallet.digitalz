@@ -1,0 +1,85 @@
+{
+  "version": "Versão",
+  "nav": {
+    "home": "Início",
+    "about": "Sobre",
+    "contact": "Contato"
+  },
+  "home": {
+    "lets": "Comece agora os seus registros",
+    "about": "Este aplicativo é para ajudar a gerenciar seu dinheiro, despesas e investimentos",
+    "liquid": "Líquido",
+    "money": "Dinheiro"
+  },
+  "about": {
+    "project": {
+      "title": "Sobre o projeto",
+      "text1": "Esse projeto tem o intuito de ajudar você a organizar suas finanças",
+      "text2": "Com uma forma simples de criar os registros de despesas e valores",
+      "text3": "Crie livremente seus registros com liberdade de deletar e atualiza-los"
+    },
+    "tech": {
+      "title": "Tecnologias",
+      "text1": "Projeto criado usando Vue.js em sua última versão",
+      "text2": "Utilizando as melhores práticas de desenvolvimento PWA",
+      "text3": "Desenvolvido e mantido por profissionais",
+      "text4": "Projeto de código livre e aberto para consulta e estudo",
+      "text5": "Se você deseja colaborar acesse o",
+      "text6": "repositório no Github",
+      "text7": "Sinta-se livre para ajudar no desenvolvimento"
+    },
+    "objective": {
+      "title": "Objetivos",
+      "text1": "Auxiliar na organização de despesas, entrada de valores e investimentos",
+      "text2": "Ajudar na visibilidade e totalidade de sua saúde financeira"
+    }
+  },
+  "contact": {
+    "title": "Contato",
+    "text1": "Se você tem algum feedback ou precisa de ajuda",
+    "text2": "Entre em contato conosco"
+  },
+  "register": {
+    "create": "Criar registro",
+    "update": "Atualizar registro",
+    "delete": "Deletar registro",
+    "deleteMsg": "Você deseja deletar o registro {name} com valor de {value}?",
+    "form": {
+      "type": "Tipo do registro *",
+      "name": "Nome do registro *",
+      "value": "Valor do registro *",
+      "description": "Descrição do registro *",
+      "indicates": "* indica campo obrigatório",
+      "investiment": "Investimento | Investimentos",
+      "expense": "Despesa | Despesas",
+      "entry": "Entrada | Entradas",
+      "rules": {
+        "type": {
+          "required": "Tipo é obrigatório"
+        },
+        "name": {
+          "required": "Nome é obrigatório",
+          "less": "Nome precisa ser menor que 15 letras"
+        },
+        "value": {
+          "required": "Valor é obrigatório",
+          "less": "Valor precisa ser menor que {value}"
+        },
+        "description": {
+          "required": "Descrição é obrigatório",
+          "less": "Descrição precisa ser menor que 250 letras",
+          "more": "Descrição precisa ser maior que 20 letras"
+        }
+      }
+    }
+  },
+  "actions": {
+    "create": "Criar",
+    "save": "Salvar",
+    "confirm": "Confirmar",
+    "cancel": "Cancelar",
+    "register": "Registro",
+    "expand": "Expandir",
+    "compact": "Compactar"
+  }
+}

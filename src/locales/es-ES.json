@@ -1,0 +1,85 @@
+{
+  "version": "Versión",
+  "nav": {
+    "home": "Comienzo",
+    "about": "Informes",
+    "contact": "Contacto"
+  },
+  "home": {
+    "lets": "Comience sus registros ahora",
+    "about": "Esta aplicación es para ayudarlo a administrar su dinero, gastos e inversiones.",
+    "liquid": "Líquido",
+    "money": "Dinero"
+  },
+  "about": {
+    "project": {
+      "title": "Sobre el proyecto",
+      "text1": "Este proyecto está destinado a ayudarte a organizar tus finanzas.",
+      "text2": "Con una forma sencilla de crear los registros de gastos y montos",
+      "text3": "Cree libremente sus registros con la libertad de eliminarlos y actualizarlos"
+    },
+    "tech": {
+      "title": "Tecnologías",
+      "text1": "Proyecto creado usando Vue.js en su última versión",
+      "text2": "Utilización de las mejores prácticas de desarrollo de PWA",
+      "text3": "Desarrollado y mantenido por profesionales",
+      "text4": "Proyecto gratuito y de código abierto para consulta y estudio.",
+      "text5": "Si quieres colaborar entra en",
+      "text6": "repositorio en Github",
+      "text7": "Siéntete libre de ayudar con el desarrollo."
+    },
+    "objective": {
+      "title": "Metas",
+      "text1": "Asistir en la organización de gastos, entrada de valores e inversiones.",
+      "text2": "Ayuda con la visibilidad y la integridad de su salud financiera"
+    }
+  },
+  "contact": {
+    "title": "Contacto",
+    "text1": "Si tienes algún comentario o necesitas ayuda",
+    "text2": "Contáctenos"
+  },
+  "register": {
+    "create": "Crear registro",
+    "update": "Actualizar registro",
+    "delete": "Eliminar registro",
+    "deleteMsg": "¿Quieres eliminar el registro {name} con valor {value}?",
+    "form": {
+      "type": "Tipo do registro *",
+      "name": "Nombre do registro *",
+      "value": "Valor do registro *",
+      "description": "Descripción do registro *",
+      "indicates": "* indica un campo obligatorio",
+      "investiment": "Inversión | Inversións",
+      "expense": "Gasto | Gastos",
+      "entry": "Ingresso | Ingressos",
+      "rules": {
+        "type": {
+          "required": "Tipo es obligatorio"
+        },
+        "name": {
+          "required": "Nombre es obligatorio",
+          "less": "Nombre debe tener menos de 15 letras"
+        },
+        "value": {
+          "required": "Valor es obligatorio",
+          "less": "Valor debe tener menos de {value}"
+        },
+        "description": {
+          "required": "Descripción es obligatorio",
+          "less": "Descripción debe tener menos de 250 letras",
+          "more": "Descripción debe tener más de 20 letras"
+        }
+      }
+    }
+  },
+  "actions": {
+    "create": "Crear",
+    "save": "Ahorrar",
+    "confirm": "Confirmar",
+    "cancel": "Cancelar",
+    "register": "Registro",
+    "expand": "Expandir",
+    "compact": "Comprimir"
+  }
+}

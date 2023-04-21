@@ -1,0 +1,85 @@
+{
+  "version": "Sürüm",
+  "nav": {
+    "home": "Başlangıç",
+    "about": "Hakkında",
+    "contact": "Bize Ulaşın"
+  },
+  "home": {
+    "lets": "Kayıtlarınızı şimdi oluşturun",
+    "about": "Bu uygulamanın amacı; paranızı, harcamalarınızı ve yatırımlarınızı yönetmenizde yardımcı olmaktır",
+    "liquid": "Sıvı",
+    "money": "Peşin"
+  },
+  "about": {
+    "project": {
+      "title": "Proje hakkında",
+      "text1": "Bu proje, mali durumunuzu düzenlemenize yardımcı olmayı amaçlamaktadır.",
+      "text2": "Masraflarınızın ve tutarlarınızın kayıtlarını oluşturmanın basit bir yolu",
+      "text3": "Kayıtlarınızı gönlünüzce güncelleyen ve silin"
+    },
+    "tech": {
+      "title": "Teknolojiler",
+      "text1": "Vue.js'in en son sürümünü kullanılarak oluşuturulmuştur",
+      "text2": "PWA geliştirme en iyi uygulamalarını kullanma",
+      "text3": "Profesyoneller tarafından geliştiriliyor",
+      "text4": "Danışma ve çalışma için ücretsiz ve açık kaynaklı proje",
+      "text5": "İşbirliği yapmak istiyorsanız, şu adrese gidin:",
+      "text6": "Github repo",
+      "text7": "Geliştirmeye yardımcı olmaktan çekinmeyin."
+    },
+    "objective": {
+      "title": "Hedefler",
+      "text1": "Gider, gelir ve yatırımlarınızın düzenli olmasına önem verin",
+      "text2": "Finansal sağlığınızın görünürlüğü ve eksiksizliğine önem verin"
+    }
+  },
+  "contact": {
+    "title": "Bize ulaşmak için",
+    "text1": "Herhangi bir geri bildiriminiz veya ihtiyacınız varsa",
+    "text2": "Bize Ulaşın"
+  },
+  "register": {
+    "create": "kayıt oluştur",
+    "update": "kaydı güncelle",
+    "delete": "kaydı sil",
+    "deleteMsg": "{value} değerine sahip {name} kaydını silmek istiyor musunuz?",
+    "form": {
+      "type": "Kayıt tipi *",
+      "name": "Kayıt ismi *",
+      "value": "Kayıt değeri *",
+      "description": "Kayıt Açıklaması *",
+      "indicates": "* Bir alanın zorunlu olduğunu gösterir",
+      "investiment": "Yatırım | yatırımlar",
+      "expense": "gider | giderler",
+      "entry": "gelir | girişler",
+      "rules": {
+        "type": {
+          "required": "tür gerekli"
+        },
+        "name": {
+          "required": "İsim gerekli",
+          "less": "İsim 15 harften az olmalıdır"
+        },
+        "value": {
+          "required": "değer gerekli",
+          "less": "Değer, {value} değerinden küçük olmalıdır"
+        },
+        "description": {
+          "required": "Açıklama gerekli",
+          "less": "Açıklama 250 harften az olmalıdır",
+          "more": "Açıklama 20 harften uzun olmalıdır"
+        }
+      }
+    }
+  },
+  "actions": {
+    "create": "Oluştur",
+    "save": "Kaydet",
+    "confirm": "Onayla",
+    "cancel": "İptal",
+    "register": "Kayıt ol",
+    "expand": "genişlet",
+    "compact": "sıkıştır"
+  }
+}

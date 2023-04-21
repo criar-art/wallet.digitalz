@@ -1,0 +1,85 @@
+{
+  "version": "Version",
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "home": {
+    "lets": "Let's go make your registers",
+    "about": "This application is for help to manager your money, expenses and investiments",
+    "liquid": "Liquid",
+    "money": "Money"
+  },
+  "about": {
+    "project": {
+      "title": "About the project",
+      "text1": "This project is intended to help you organize your finances",
+      "text2": "With a simple way to create the registers of expenses and amounts",
+      "text3": "Freely create your registers with freedom to delete and update them"
+    },
+    "tech": {
+      "title": "Technologies",
+      "text1": "Project created using Vue.js in its latest version",
+      "text2": "Utilizing PWA development best practices",
+      "text3": "Developed and maintained by professionals",
+      "text4": "Free and open source project for consultation and study",
+      "text5": "If you want to collaborate, go to",
+      "text6": "repository on Github",
+      "text7": "Feel free to help with development."
+    },
+    "objective": {
+      "title": "Objetives",
+      "text1": "Assist in the organization of expenses, entry of values and investments",
+      "text2": "Help with the visibility and completeness of your financial health"
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "text1": "If you have any feedback or need help",
+    "text2": "Contact us"
+  },
+  "register": {
+    "create": "Create register",
+    "update": "Update register",
+    "delete": "Delete register",
+    "deleteMsg": "Do you want delete this {name} register with value {value}?",
+    "form": {
+      "type": "Type of register *",
+      "name": "Name of register *",
+      "value": "Value of register *",
+      "description": "Description of register *",
+      "indicates": "* indicates required field",
+      "investiment": "Investiment | Investiments",
+      "expense": "Expense | Expenses",
+      "entry": "Entry | Entrys",
+      "rules": {
+        "type": {
+          "required": "Type is required"
+        },
+        "name": {
+          "required": "Name is required",
+          "less": "Name must be less than 15 characters"
+        },
+        "value": {
+          "required": "Value is required",
+          "less": "Value must be less than {value}"
+        },
+        "description": {
+          "required": "Description is required",
+          "less": "Description must be less than 250 characters",
+          "more": "Description must be more than 20 characters"
+        }
+      }
+    }
+  },
+  "actions": {
+    "create": "Create",
+    "save": "Save",
+    "confirm": "Confirm",
+    "cancel": "Cancel",
+    "register": "Register",
+    "expand": "Expand",
+    "compact": "Compact"
+  }
+}

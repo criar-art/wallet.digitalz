@@ -1,0 +1,85 @@
+{
+  "version": "版本",
+  "nav": {
+    "home": "接触",
+    "about": "关于",
+    "contact": "接触"
+  },
+  "home": {
+    "lets": "现在开始你的记录",
+    "about": "此应用程序旨在帮助您管理您的资金、开支和投资。",
+    "liquid": "液体",
+    "money": "现金"
+  },
+  "about": {
+    "project": {
+      "title": "关于该项目",
+      "text1": "该项目旨在帮助您整理财务",
+      "text2": "用一种简单的方法来创建费用和金额的记录",
+      "text3": "自由创建您的记录，自由删除和更新它们"
+    },
+    "tech": {
+      "title": "技术",
+      "text1": "使用最新版本的 Vue.js 创建的项目",
+      "text2": "利用 PWA 开发最佳实践",
+      "text3": "由专业人员开发和维护",
+      "text4": "供咨询和学习的免费开源项目",
+      "text5": "如果你想合作，去",
+      "text6": "Github 上的存储库",
+      "text7": "随时帮助开发。"
+    },
+    "objective": {
+      "title": "目标",
+      "text1": "协助组织开支、录入价值和投资",
+      "text2": "帮助提高财务状况的可见性和完整性"
+    }
+  },
+  "contact": {
+    "title": "接触",
+    "text1": "如果您有任何反馈或需要帮助",
+    "text2": "联系我们"
+  },
+  "register": {
+    "create": "创造记录",
+    "update": "更新记录",
+    "delete": "删除记录",
+    "deleteMsg": "是否要删除记录 {name} 价值为 {value}?",
+    "form": {
+      "type": "记录类型 *",
+      "name": "记录名称 *",
+      "value": "登记值 *",
+      "description": "记录说明 *",
+      "indicates": "* 表示必填字段",
+      "investiment": "投资 | 投资",
+      "expense": "费用 | 花费",
+      "entry": "禁止 | 条目",
+      "rules": {
+        "type": {
+          "required": "类型是必需的"
+        },
+        "name": {
+          "required": "名称是必需的",
+          "less": "名称必须少于 15 个字母"
+        },
+        "value": {
+          "required": "值是必需的",
+          "less": "值必须小于 {value}"
+        },
+        "description": {
+          "required": "描述是必需的",
+          "less": "描述需要少于 250 个字母",
+          "more": "描述需要大于 20 个字母"
+        }
+      }
+    }
+  },
+  "actions": {
+    "create": "创建",
+    "save": "保存",
+    "confirm": "确认",
+    "cancel": "取消",
+    "register": "记录",
+    "expand": "扩张",
+    "compact": "袖珍的"
+  }
+}
