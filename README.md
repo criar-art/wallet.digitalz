@@ -13,4 +13,4 @@ This project is a application for manager your money and investiment
 #### 你能谈谈这个项目吗？
 
 * :ghost: @lucasferreiralimax
-* :email: lucasferreiralimax@gmail.com
+* :email: contato@criar.art
