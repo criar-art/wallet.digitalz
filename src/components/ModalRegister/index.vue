@@ -18,6 +18,7 @@ const typeRegister = ref<TypeRegister | undefined>(props.register ? props.regist
 const name = ref<string | undefined>(props.register ? props.register.name : undefined)
 const value = ref<number | undefined>(props.register ? props.register.value : undefined)
 const description = ref<string | undefined>(props.register ? props.register.description : undefined)
+const pay = ref<boolean | undefined>(props.register ? props.register.pay : false)
 
 const sizeLimitMoney = 9999999.99;
 const limitMoney = parseMoney(sizeLimitMoney, locale.value, true)
@@ -55,7 +56,8 @@ async function validate () {
       name: name.value,
       type: typeRegister.value,
       value: value.value,
-      description: description.value
+      description: description.value,
+      pay: pay.value
     }
 
     if (props.update) {
@@ -167,6 +169,13 @@ async function validate () {
                   required
                 />
               </v-col>
+              <template v-if="typeRegister?.value == 'expense'">
+                <v-checkbox
+                  aria-label="Pay of register"
+                  :label="t('register.form.pay')"
+                  v-model="pay"
+                />
+              </template>
             </v-row>
           </v-form>
         </v-container>

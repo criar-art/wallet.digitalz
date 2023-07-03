@@ -83,7 +83,8 @@ const typeColors: any = {
         >
           <v-icon v-if="type == 'entry'" icon="mdi-arrow-right" />
           <v-icon v-if="type == 'investiment'" icon="mdi-timelapse" />
-          <v-icon v-if="type == 'expense'" icon="mdi-arrow-left" />
+          <v-icon v-if="type == 'expense' && !item.pay" icon="mdi-arrow-left" />
+          <v-icon v-if="type == 'expense' && item.pay" icon="mdi-check-circle" />
         </span>
         <span
           class="mr-2 font-weight-bold"
@@ -102,6 +103,7 @@ const typeColors: any = {
       <v-expansion-panel-text>
         <pre class="pt-2 font-weight-regular text-body-1 overflow-x-auto">{{ item.description }}</pre>
         <v-col class="d-flex justify-end pa-0 mt-2" width="100%">
+          <v-checkbox :label="t('register.form.pay')" v-model="item.pay"></v-checkbox>
           <ModalDelete :register="item" />
           <ModalRegister update :register="item" />
         </v-col>
