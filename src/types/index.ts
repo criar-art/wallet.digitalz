@@ -9,6 +9,7 @@ export type Register = {
   name: string | undefined;
   value: number | undefined;
   description: string | undefined;
+  pay: boolean | undefined;
 }
 
 export type RegisterIds = {
