@@ -53,6 +53,7 @@
       "investiment": "Investiment | Investiments",
       "expense": "Expense | Expenses",
       "entry": "Entry | Entrys",
+      "pay": "Pay",
       "rules": {
         "type": {
           "required": "Type is required"

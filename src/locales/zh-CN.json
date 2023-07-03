@@ -53,6 +53,7 @@
       "investiment": "投资 | 投资",
       "expense": "费用 | 花费",
       "entry": "禁止 | 条目",
+      "pay": "支付",
       "rules": {
         "type": {
           "required": "类型是必需的"

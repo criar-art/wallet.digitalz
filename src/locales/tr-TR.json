@@ -53,6 +53,7 @@
       "investiment": "Yatırım | yatırımlar",
       "expense": "gider | giderler",
       "entry": "gelir | girişler",
+      "pay": "ödendi",
       "rules": {
         "type": {
           "required": "tür gerekli"

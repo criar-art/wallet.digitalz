@@ -53,6 +53,7 @@
       "investiment": "Inversión | Inversións",
       "expense": "Gasto | Gastos",
       "entry": "Ingresso | Ingressos",
+      "pay": "Pagado",
       "rules": {
         "type": {
           "required": "Tipo es obligatorio"
