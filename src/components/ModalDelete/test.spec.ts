@@ -10,7 +10,8 @@ const wrapper = shallowMount(ModalDelete, {
       type: { label: 'Investiment', value: 'investiment' },
       name: 'Test',
       value: 1000,
-      description: 'Descriiption test example spec'
+      description: 'Descriiption test example spec',
+      pay: false
     }
   }
 })
