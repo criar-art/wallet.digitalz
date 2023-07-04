@@ -97,7 +97,6 @@ const typeColors: any = {
           class="text-value pl-2 font-weight-bold"
           :class="[`text-${typeColors[type]}`]"
         >
-          {{ parseString("Teste Caslu", wallet.eye) }}
           {{ parseMoney(Number(item.value), locale, wallet.eye)}}
         </span>
       </v-expansion-panel-title>
