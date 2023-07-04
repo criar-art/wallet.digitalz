@@ -14,5 +14,5 @@ export const parseMoney = (money: string | number, country: string, eye: boolean
 }
 
 export const parseString = (value: any, eye?: boolean) => {
-  return eye ? value : value.replace(/[.,0-9A\w]/g, "*")
+  return eye ? value : value.replace(/[.,0-9A\w\W]/g, "*")
 }
