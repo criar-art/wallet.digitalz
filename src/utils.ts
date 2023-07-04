@@ -12,3 +12,7 @@ export const parseMoney = (money: string | number, country: string, eye: boolean
   const value = new Intl.NumberFormat(country, { style: 'currency', currency: currencys[country] }).format(number)
   return eye ? value : value.replace(/[.,0-9]/g, "*")
 }
+
+export const parseString = (value: any, eye?: boolean) => {
+  return eye ? value : value.replace(/[.,0-9A\w]/g, "*")
+}
