@@ -4,7 +4,7 @@ import { useWalletStore } from '@/stores/wallet'
 import ModalDelete from '@/components/ModalDelete/index.vue'
 import ModalRegister from '@/components/ModalRegister/index.vue'
 import { RegisterIds, Register } from '@/types'
-import { parseMoney } from '@/utils'
+import { parseMoney, parseString } from '@/utils'
 import { useI18n } from 'vue-i18n'
 
 const props = defineProps<{
@@ -97,13 +97,14 @@ const typeColors: any = {
           class="text-value pl-2 font-weight-bold"
           :class="[`text-${typeColors[type]}`]"
         >
+          {{ parseString("Teste Caslu", wallet.eye) }}
           {{ parseMoney(Number(item.value), locale, wallet.eye)}}
         </span>
       </v-expansion-panel-title>
       <v-expansion-panel-text>
-        <pre class="pt-2 font-weight-regular text-body-1 overflow-x-auto">{{ item.description }}</pre>
+        <pre class="pt-2 font-weight-regular text-body-1 overflow-x-auto">{{ parseString(item.description, wallet.eye) }}</pre>
         <v-col class="d-flex justify-end pa-0 mt-2" width="100%">
-          <v-checkbox :label="t('register.form.pay')" v-model="item.pay"></v-checkbox>
+          <v-checkbox :label="parseString(t('register.form.pay'), wallet.eye)" v-model="item.pay"></v-checkbox>
           <ModalDelete :register="item" />
           <ModalRegister update :register="item" />
         </v-col>
