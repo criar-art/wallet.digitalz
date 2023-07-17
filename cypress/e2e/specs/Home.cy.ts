@@ -5,6 +5,7 @@ const appVersion: string = pkg.version
 describe('Test render Home page pt-BR', () => {
   it('Render title app', () => {
     cy.visit('/')
+    cy.clearLocalStorage()
     cy.contains('h1', 'Wallet Digitalz')
   })
   it('Render texts initial', () => {
