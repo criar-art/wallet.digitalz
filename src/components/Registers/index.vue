@@ -8,7 +8,9 @@ const wallet = useWalletStore()
 
 <template>
   <InfoCards />
-  <v-row v-if="wallet.getEntrys.length || wallet.getInvestiments.length || wallet.getExpenses.length">
+  <v-row
+    v-if="wallet.getEntrys.length || wallet.getInvestiments.length || wallet.getExpenses.length  || wallet.getVehicles.length"
+  >
     <v-col
       v-if="wallet.getEntrys.length"
       class="v-col-12 v-col-md-6 v-col-xl-4"
@@ -37,6 +39,16 @@ const wallet = useWalletStore()
         v-if="wallet.getExpenses.length"
         type="expense"
         :registers="wallet.getExpenses"
+      />
+    </v-col>
+    <v-col
+      v-if="wallet.getVehicles.length"
+      class="v-col-12 v-col-md-6 v-col-xl-4"
+    >
+      <PanelRegisters
+        v-if="wallet.getVehicles.length"
+        type="vehicle"
+        :registers="wallet.getVehicles"
       />
     </v-col>
   </v-row>

@@ -53,6 +53,7 @@
       "investiment": "Yatırım | yatırımlar",
       "expense": "gider | giderler",
       "entry": "gelir | girişler",
+      "vehicle": "otomobil | otomobil",
       "pay": "ödendi",
       "rules": {
         "type": {

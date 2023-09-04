@@ -36,12 +36,14 @@ export const useWalletStore = defineStore('wallet', {
     getIds: ({ registers }) => registers.map(({ id }: Register) => id),
     getEntrys: ({ registers }) => shortRegisters(registers, 'entry'),
     getExpenses: ({ registers }) => shortRegisters(registers, 'expense'),
+    getVehicles: ({ registers }) => shortRegisters(registers, 'vehicle'),
     getExpensesNoPay: ({ registers }) => shortRegisters(registers, 'expense').filter(({ pay }: Register) => !pay),
     getInvestiments: ({ registers }) => shortRegisters(registers, 'investiment'),
     getRegisters: ({ getEntrys, getExpenses, getInvestiments }) => {
       return [...getEntrys, ...getInvestiments, ...getExpenses]
     },
     getEntryTotal: ({ getEntrys }) => getTotal(getEntrys),
+    getVehiclesTotal: ({ getVehicles }) => getTotal(getVehicles),
     getExpensesTotal: ({ getExpensesNoPay }) => getTotal(getExpensesNoPay),
     getInvestimentTotal: ({ getInvestiments }) => getTotal(getInvestiments),
     getTotalLessExpense: ({ getEntryTotal: entrys, getExpensesTotal: expenses }) => {

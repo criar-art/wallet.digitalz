@@ -128,6 +128,7 @@ async function validate () {
                     { label: $t('register.form.investiment'), value: 'investiment' },
                     { label: $t('register.form.expense'), value: 'expense' },
                     { label: $t('register.form.entry'), value: 'entry' },
+                    { label: $t('register.form.vehicle'), value: 'vehicle' },
                   ]"
                 />
               </v-col>

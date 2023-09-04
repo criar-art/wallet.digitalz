@@ -83,6 +83,7 @@ const typeColors: any = {
         >
           <v-icon v-if="type == 'entry'" icon="mdi-arrow-right" />
           <v-icon v-if="type == 'investiment'" icon="mdi-timelapse" />
+          <v-icon v-if="type == 'vehicle'" icon="mdi-atv" />
           <v-icon v-if="type == 'expense' && !item.pay" icon="mdi-arrow-left" />
           <v-icon v-if="type == 'expense' && item.pay" icon="mdi-check-circle" />
         </span>
