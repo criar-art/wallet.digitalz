@@ -137,6 +137,19 @@ async function validate () {
                 class="pa-0 pb-2"
               >
                 <v-text-field
+                  aria-label="Test of register"
+                  label="Test of register"
+                  type="date"
+                  v-model="name"
+                  :rules="nameRules"
+                  required
+                />
+              </v-col>
+              <v-col
+                cols="12"
+                class="pa-0 pb-2"
+              >
+                <v-text-field
                   aria-label="Name of register"
                   :label="$t('register.form.name')"
                   v-model="name"

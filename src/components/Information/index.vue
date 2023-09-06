@@ -9,7 +9,7 @@ const typeColors: any = {
   investiment: 'info',
   expense: 'error',
   entry: 'success',
-  vehicle: 'kbd',
+  vehicle: 'red',
   liquid: 'warning',
 }
 </script>
@@ -40,7 +40,7 @@ const typeColors: any = {
   border-top: 4px solid rgba(var(--v-theme-success));
 }
 .highlight-top.vehicle {
-  border-top: 4px solid rgba(var(--v-theme-kbd));
+  border-top: 4px solid rgba(var(--v-theme-error));
 }
 .highlight-top.liquid {
   border-top: 4px solid rgba(var(--v-theme-warning));

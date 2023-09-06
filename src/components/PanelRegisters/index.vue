@@ -46,6 +46,7 @@ const typeColors: any = {
   investiment: 'info',
   expense: 'error',
   entry: 'success',
+  vehicle: 'red',
 }
 </script>
 
