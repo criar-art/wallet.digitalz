@@ -6,6 +6,7 @@ export type TypeRegister = {
 export type Register = {
   id: string | undefined;
   type: TypeRegister | undefined;
+  date: string | undefined;
   name: string | undefined;
   value: number | undefined;
   description: string | undefined;

@@ -46,6 +46,7 @@
     "deleteMsg": "{value} değerine sahip {name} kaydını silmek istiyor musunuz?",
     "form": {
       "type": "Kayıt tipi *",
+      "date": "Kayıt tarihi *",
       "name": "Kayıt ismi *",
       "value": "Kayıt değeri *",
       "description": "Kayıt Açıklaması *",

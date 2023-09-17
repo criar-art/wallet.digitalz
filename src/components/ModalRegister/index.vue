@@ -15,6 +15,7 @@ const dialog = ref<boolean>(false)
 const valid = ref<boolean>(false)
 const myForm = ref()
 const typeRegister = ref<TypeRegister | undefined>(props.register ? props.register.type : undefined)
+const date = ref<string | undefined>(props.register ? props.register.date : undefined)
 const name = ref<string | undefined>(props.register ? props.register.name : undefined)
 const value = ref<number | undefined>(props.register ? props.register.value : undefined)
 const description = ref<string | undefined>(props.register ? props.register.description : undefined)
@@ -25,6 +26,10 @@ const limitMoney = parseMoney(sizeLimitMoney, locale.value, true)
 
 const typeRules = [
   (v: string) => !!v || t('register.form.rules.type.required')
+]
+
+const dateRules = [
+  (v: string) => !!v || t('register.form.rules.date.required'),
 ]
 
 const nameRules = [
@@ -56,6 +61,7 @@ async function validate () {
       name: name.value,
       type: typeRegister.value,
       value: value.value,
+      date: date.value,
       description: description.value,
       pay: pay.value
     }
@@ -137,11 +143,11 @@ async function validate () {
                 class="pa-0 pb-2"
               >
                 <v-text-field
-                  aria-label="Test of register"
-                  label="Test of register"
+                  aria-label="Date of register"
+                  :label="$t('register.form.date')"
                   type="date"
-                  v-model="name"
-                  :rules="nameRules"
+                  v-model="date"
+                  :rules="dateRules"
                   required
                 />
               </v-col>

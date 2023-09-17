@@ -46,6 +46,7 @@
     "deleteMsg": "Do you want delete this {name} register with value {value}?",
     "form": {
       "type": "Type of register *",
+      "date": "Date of register *",
       "name": "Name of register *",
       "value": "Value of register *",
       "description": "Description of register *",

@@ -46,6 +46,7 @@
     "deleteMsg": "是否要删除记录 {name} 价值为 {value}?",
     "form": {
       "type": "记录类型 *",
+      "date": "登记日期 *",
       "name": "记录名称 *",
       "value": "登记值 *",
       "description": "记录说明 *",

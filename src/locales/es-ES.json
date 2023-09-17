@@ -46,6 +46,7 @@
     "deleteMsg": "¿Quieres eliminar el registro {name} con valor {value}?",
     "form": {
       "type": "Tipo do registro *",
+      "date": "Data do registro *",
       "name": "Nombre do registro *",
       "value": "Valor do registro *",
       "description": "Descripción do registro *",
