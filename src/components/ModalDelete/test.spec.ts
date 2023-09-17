@@ -8,6 +8,7 @@ const wrapper = shallowMount(ModalDelete, {
     register: {
       id: 'test-1',
       type: { label: 'Investiment', value: 'investiment' },
+      date: '1994-09-21',
       name: 'Test',
       value: 1000,
       description: 'Descriiption test example spec',
