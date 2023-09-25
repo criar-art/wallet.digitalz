@@ -105,7 +105,7 @@ const typeColors: any = {
       <v-expansion-panel-text>
         <pre class="pt-2 font-weight-regular text-body-1 overflow-x-auto">{{ parseString(item.description, wallet.eye) }}</pre>
         <p class="pt-2 font-weight-regular text-body-1 overflow-x-auto">
-          <v-icon icon="mdi-calendar" /> {{ !wallet.eye ? parseString(item.date, wallet.eye) : new Date(parseString(item.date, wallet.eye)).toLocaleDateString(locale) }}
+          <v-icon icon="mdi-calendar" /> {{ !wallet.eye ? parseString(item.date, wallet.eye) : new Date(parseString(`${item.date}T12:00:00Z`, wallet.eye)).toLocaleDateString(locale) }}
         </p>
         <v-col class="d-flex justify-end pa-0 mt-2" width="100%">
           <v-checkbox :label="parseString(t('register.form.pay'), wallet.eye)" v-model="item.pay"></v-checkbox>
