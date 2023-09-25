@@ -15,7 +15,7 @@ const props = defineProps<{
 const { t, locale } = useI18n()
 const wallet = useWalletStore()
 const panel = ref<RegisterIds[]>([])
-const registersLength = ref<Number>(props.registers ? props.registers.length : 0)
+const registersLength = ref<number>(props.registers ? props.registers.length : 0)
 const panelChangeView = ref<boolean>(false)
 const changeViewLabel = ref<string>(changeViewLabelCurrent())
 
