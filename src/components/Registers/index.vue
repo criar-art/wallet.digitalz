@@ -42,6 +42,16 @@ const wallet = useWalletStore()
       />
     </v-col>
     <v-col
+      v-if="wallet.getTrucks.length"
+      class="v-col-12 v-col-md-6 v-col-xl-4"
+    >
+      <PanelRegisters
+        v-if="wallet.getTrucks.length"
+        type="truck"
+        :registers="wallet.getTrucks"
+      />
+    </v-col>
+    <v-col
       v-if="wallet.getVehicles.length"
       class="v-col-12 v-col-md-6 v-col-xl-4"
     >
@@ -49,6 +59,16 @@ const wallet = useWalletStore()
         v-if="wallet.getVehicles.length"
         type="vehicle"
         :registers="wallet.getVehicles"
+      />
+    </v-col>
+    <v-col
+      v-if="wallet.getMotorcycle.length"
+      class="v-col-12 v-col-md-6 v-col-xl-4"
+    >
+      <PanelRegisters
+        v-if="wallet.getMotorcycle.length"
+        type="motorcycle"
+        :registers="wallet.getMotorcycle"
       />
     </v-col>
   </v-row>

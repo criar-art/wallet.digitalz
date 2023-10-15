@@ -54,7 +54,9 @@
       "investiment": "投资 | 投资",
       "expense": "费用 | 花费",
       "entry": "禁止 | 条目",
+      "truck": "卡车 | 卡车",
       "vehicle": "车 | 汽车",
+      "motorcycle": "摩托车 | 摩托车",
       "pay": "支付",
       "rules": {
         "type": {

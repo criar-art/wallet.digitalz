@@ -54,7 +54,9 @@
       "investiment": "Investimento | Investimentos",
       "expense": "Despesa | Despesas",
       "entry": "Entrada | Entradas",
+      "truck": "Caminhão | Caminhões",
       "vehicle": "Veículo | Veículos",
+      "motorcycle": "Moto | Motos",
       "pay": "Pago",
       "rules": {
         "type": {

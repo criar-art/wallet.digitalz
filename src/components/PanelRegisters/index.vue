@@ -46,7 +46,9 @@ const typeColors: any = {
   investiment: 'info',
   expense: 'error',
   entry: 'success',
+  truck: 'red',
   vehicle: 'red',
+  motorcycle: 'red',
 }
 </script>
 
@@ -88,9 +90,11 @@ const typeColors: any = {
         >
           <v-icon v-if="type == 'entry'" icon="mdi-arrow-right" />
           <v-icon v-if="type == 'investiment'" icon="mdi-timelapse" />
-          <v-icon v-if="type == 'vehicle'" icon="mdi-atv" />
           <v-icon v-if="type == 'expense' && !item.pay" icon="mdi-arrow-left" />
           <v-icon v-if="type == 'expense' && item.pay" icon="mdi-check-circle" />
+          <v-icon v-if="type == 'truck'" icon="mdi-truck" />
+          <v-icon v-if="type == 'vehicle'" icon="mdi-car-hatchback" />
+          <v-icon v-if="type == 'motorcycle'" icon="mdi-atv" />
         </span>
         <span
           class="mr-2 font-weight-bold"
