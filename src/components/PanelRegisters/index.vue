@@ -145,6 +145,7 @@ const conditionPay = computed(() => {
         </p>
         <v-col class="d-flex justify-end pa-0 mt-2" width="100%">
           <v-checkbox
+            class="pay-checkbox"
             v-if="conditionPay"
             :label="parseString(t('register.form.pay'), wallet.eye)"
             v-model="item.pay"
@@ -156,3 +157,9 @@ const conditionPay = computed(() => {
     </v-expansion-panel>
   </v-expansion-panels>
 </template>
+
+<style>
+.pay-checkbox {
+  transform: translateX(-8px);
+}
+</style>
