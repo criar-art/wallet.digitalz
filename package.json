@@ -1,7 +1,7 @@
 {
   "name": "wallet-digitalz",
   "private": true,
-  "version": "1.2.8",
+  "version": "1.2.9",
   "type": "module",
   "author": "lucasferreiralimax (https://github.com/lucasferreiralimax)",
   "repository": "https://github.com/lucasferreiralimax/wallet-digitalz",
