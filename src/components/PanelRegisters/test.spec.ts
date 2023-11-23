@@ -8,7 +8,10 @@ const wrapper = mount(PanelRegisters, {
     type: 'investiment',
     registers: [{
       id: '1',
-      type: 'investiment',
+      type: {
+        label: 'Investiment',
+        value: 'investiment',
+      },
       date: '21/09/1994',
       name: 'Test',
       value: 2,
