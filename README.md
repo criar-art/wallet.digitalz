@@ -1,6 +1,6 @@
 # Wallet Digitalz
 
-This project is a application for manager your money and investiment
+Wallet Digitalz was developed to help organize your finances, offering a simple way to record your expenses and amounts. Have the freedom to create and manage your records intuitively, and can easily delete or update them as needed.
 
 ## Learn More
 ### :performing_arts: Com quem você pode conversar sobre o projeto?
