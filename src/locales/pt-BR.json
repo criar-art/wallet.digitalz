@@ -49,7 +49,7 @@
       "date": "Data do registro *",
       "name": "Nome do registro *",
       "value": "Valor do registro *",
-      "description": "Descrição do registro *",
+      "description": "Descrição do registro",
       "indicates": "* indica campo obrigatório",
       "investiment": "Investimento | Investimentos",
       "expense": "Despesa | Despesas",

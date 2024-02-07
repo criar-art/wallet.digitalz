@@ -43,8 +43,6 @@ const valueRules = [
 ]
 
 const descriptionRules = [
-(v: string) => !!v || t('register.form.rules.description.required'),
-  (v: string) => v.length > 20 || t('register.form.rules.description.more'),
   (v: string) => v.length <= 250 || t('register.form.rules.description.less'),
 ]
 
@@ -188,7 +186,6 @@ async function validate () {
                   :label="$t('register.form.description')"
                   v-model="description"
                   :rules="descriptionRules"
-                  required
                 />
               </v-col>
               <template v-if="typeRegister?.value == 'expense'">

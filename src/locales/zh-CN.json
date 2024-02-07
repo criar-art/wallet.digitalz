@@ -49,7 +49,7 @@
       "date": "登记日期 *",
       "name": "记录名称 *",
       "value": "登记值 *",
-      "description": "记录说明 *",
+      "description": "记录说明",
       "indicates": "* 表示必填字段",
       "investiment": "投资 | 投资",
       "expense": "费用 | 花费",

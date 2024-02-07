@@ -49,7 +49,7 @@
       "date": "Kayıt tarihi *",
       "name": "Kayıt ismi *",
       "value": "Kayıt değeri *",
-      "description": "Kayıt Açıklaması *",
+      "description": "Kayıt Açıklaması",
       "indicates": "* Bir alanın zorunlu olduğunu gösterir",
       "investiment": "Yatırım | yatırımlar",
       "expense": "gider | giderler",

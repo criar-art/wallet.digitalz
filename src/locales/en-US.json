@@ -49,7 +49,7 @@
       "date": "Date of register *",
       "name": "Name of register *",
       "value": "Value of register *",
-      "description": "Description of register *",
+      "description": "Description of register",
       "indicates": "* indicates required field",
       "investiment": "Investiment | Investiments",
       "expense": "Expense | Expenses",
