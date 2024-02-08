@@ -22,10 +22,10 @@
     "crypto-js": "^4.2.0",
     "pinia": "^2.1.7",
     "uuid": "^9.0.1",
-    "vue": "^3.4.15",
+    "vue": "^3.4.16",
     "vue-i18n": "^9.9.1",
     "vue-router": "^4.2.5",
-    "vuetify": "^3.5.2"
+    "vuetify": "^3.5.3"
   },
   "devDependencies": {
     "@mdi/font": "^7.4.47",
@@ -45,7 +45,7 @@
     "jsdom": "^24.0.0",
     "start-server-and-test": "^2.0.3",
     "typescript": "^5.3.3",
-    "vite": "^5.0.12",
+    "vite": "^5.1.0",
     "vite-plugin-pwa": "^0.17.5",
     "vite-plugin-vuetify": "^2.0.1",
     "vitest": "^1.2.2",
