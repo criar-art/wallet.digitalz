@@ -42,10 +42,6 @@ const valueRules = [
   (v: number) => v <=  sizeLimitMoney || t('register.form.rules.value.less', { value: limitMoney })
 ]
 
-const descriptionRules = [
-  (v: string) => v.length <= 250 || t('register.form.rules.description.less'),
-]
-
 function close () {
   if (!props.update) myForm.value.reset()
   dialog.value = false
@@ -185,7 +181,7 @@ async function validate () {
                   aria-label="Description of register"
                   :label="$t('register.form.description')"
                   v-model="description"
-                  :rules="descriptionRules"
+                  :maxlength="250"
                 />
               </v-col>
               <template v-if="typeRegister?.value == 'expense'">

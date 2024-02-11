@@ -69,11 +69,6 @@
         "value": {
           "required": "değer gerekli",
           "less": "Değer, {value} değerinden küçük olmalıdır"
-        },
-        "description": {
-          "required": "Açıklama gerekli",
-          "less": "Açıklama 250 harften az olmalıdır",
-          "more": "Açıklama 20 harften uzun olmalıdır"
         }
       }
     }

@@ -69,11 +69,6 @@
         "value": {
           "required": "值是必需的",
           "less": "值必须小于 {value}"
-        },
-        "description": {
-          "required": "描述是必需的",
-          "less": "描述需要少于 250 个字母",
-          "more": "描述需要大于 20 个字母"
         }
       }
     }

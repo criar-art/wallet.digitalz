@@ -69,11 +69,6 @@
         "value": {
           "required": "Value is required",
           "less": "Value must be less than {value}"
-        },
-        "description": {
-          "required": "Description is required",
-          "less": "Description must be less than 250 characters",
-          "more": "Description must be more than 20 characters"
         }
       }
     }

@@ -69,11 +69,6 @@
         "value": {
           "required": "Valor es obligatorio",
           "less": "Valor debe tener menos de {value}"
-        },
-        "description": {
-          "required": "Descripción es obligatorio",
-          "less": "Descripción debe tener menos de 250 letras",
-          "more": "Descripción debe tener más de 20 letras"
         }
       }
     }
