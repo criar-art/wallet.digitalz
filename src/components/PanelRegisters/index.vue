@@ -149,6 +149,7 @@ const conditionPay = computed(() => {
             v-if="conditionPay"
             :label="parseString(t('register.form.pay'), wallet.eye)"
             v-model="item.pay"
+            hide-details
           />
           <ModalDelete :register="item" />
           <ModalRegister update :register="item" />
@@ -161,5 +162,6 @@ const conditionPay = computed(() => {
 <style>
 .pay-checkbox {
   transform: translateX(-8px);
+  margin-right: auto;
 }
 </style>
