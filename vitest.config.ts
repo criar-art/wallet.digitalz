@@ -19,8 +19,10 @@ export default defineConfig({
     setupFiles: [
       'vitest.setup.js',
     ],
-    deps: {
-      inline: ['vuetify'],
-    },
+    server: {
+      deps: {
+        inline: ['vuetify'],
+      },
+    }
   }
 })
