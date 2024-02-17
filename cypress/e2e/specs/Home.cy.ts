@@ -10,9 +10,9 @@ describe('Test render Home page pt-BR', () => {
   })
   it('Render texts initial', () => {
     cy.contains('h2', 'Comece agora os seus registros')
-    cy.contains('p', 'Este aplicativo é para ajudar a gerenciar seu dinheiro, despesas e investimentos')
+    cy.contains('p', 'Simplifique o controle das suas finanças, mantendo o domínio sobre suas despesas e investimentos de forma conveniente e eficaz.')
   })
   it('Render text footer', () => {
-    cy.contains('a', `2023 — Versão ${appVersion}`)
+    cy.contains('a', `2024 — Versão ${appVersion}`)
   })
 })
