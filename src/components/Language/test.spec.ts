@@ -7,6 +7,10 @@ const wrapper = mount(Language)
 
 describe('Basic render Language', () => {
   it('is Language a vue instance', () => {
+    console.log(wrapper.vm)
     expect(wrapper.exists()).toBeTruthy()
+  })
+  it('check label language with pt-BR', () => {
+    expect(wrapper.text()).toContain('Language pt-BR')
   })
 })

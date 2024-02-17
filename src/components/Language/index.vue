@@ -12,7 +12,7 @@ watch(locale, (val) => {
 
 <template>
   <v-select
-    label="Language"
+    label="Language "
     v-model="locale"
     single-line
     :items="[...supportLocales]"
