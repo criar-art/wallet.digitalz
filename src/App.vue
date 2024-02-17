@@ -82,7 +82,7 @@ onMounted(() => {
     <v-main class="main">
       <router-view />
     </v-main>
-    <Footer></Footer>
+    <Footer />
   </v-app>
 </template>
 
