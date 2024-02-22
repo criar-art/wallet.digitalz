@@ -24,7 +24,7 @@ export const useWalletStore = defineStore('wallet', {
           write: (v: Register[]) => String(AES.encrypt(JSON.stringify(v), import.meta.env.VITE_WALLET_DIGITAL))
         },
       }),
-      eye: useStorage('my-wallet-eye', [], undefined, {
+      eye: useStorage('my-wallet-eye', false, undefined, {
         serializer: {
           read: (v: string) => JSON.parse(AES.decrypt(v, import.meta.env.VITE_WALLET_DIGITAL).toString(CryptoJS.enc.Utf8)),
           write: (v: boolean) => String(AES.encrypt(JSON.stringify(v), import.meta.env.VITE_WALLET_DIGITAL))
