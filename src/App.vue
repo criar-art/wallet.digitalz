@@ -62,6 +62,9 @@ onMounted(() => {
           {{ $t('nav.about') }}
         </v-list-item>
         <v-divider />
+        <v-list-item router-link to="/privacy" prepend-icon="mdi-shield-star">
+          {{ $t('nav.privacy') }}
+        </v-list-item>
         <v-list-item router-link to="/contact" prepend-icon="mdi-earth">
           {{ $t('nav.contact') }}
         </v-list-item>

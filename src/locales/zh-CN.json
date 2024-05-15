@@ -3,6 +3,7 @@
   "nav": {
     "home": "接触",
     "about": "关于",
+    "privacy": "隐私",
     "contact": "接触"
   },
   "home": {
@@ -81,5 +82,30 @@
     "register": "记录",
     "expand": "扩张",
     "compact": "袖珍的"
+  },
+  "privacy_policy": {
+    "title": "Wallet Digitalz隐私政策",
+    "intro": "此款管理和记录货币价值的应用由Criar.Art科技开发和提供（以下简称“我们”、“我们的”或“Criar.Art”）。",
+    "info_collected": {
+      "title": "我们收集的信息",
+      "content": "当您使用Wallet Digitalz时，我们不会收集或存储您的个人信息在我们的服务器上。所有输入应用程序的信息都会本地存储在您的设备上，并进行加密以确保您数据的安全和隐私。"
+    },
+    "data_responsibility": {
+      "title": "数据责任",
+      "content": "我们不对Wallet Digitalz中输入的数据负责。您对于您在应用程序中输入和存储的数据的准确性、安全性和隐私性负有全部责任。"
+    },
+    "information_usage": {
+      "title": "信息使用",
+      "content": "在Wallet Digitalz中输入的信息仅供个人使用，不会与第三方分享。我们采取适当的安全措施，保护您的数据免受未经授权的访问或披露。"
+    },
+    "privacy_policy_changes": {
+      "title": "隐私政策变更",
+      "content": "本隐私政策可能定期更新以反映信息实践的变化。我们建议您定期审查本隐私政策，了解如何保护您的信息。"
+    },
+    "contact": {
+      "title": "联系方式",
+      "content": "如果您对我们的隐私政策或Wallet Digitalz应用程序有任何疑问或顾虑，请通过以下电子邮件地址与我们联系："
+    }
   }
+
 }

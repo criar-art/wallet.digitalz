@@ -3,6 +3,7 @@
   "nav": {
     "home": "Início",
     "about": "Sobre",
+    "privacy": "Privacidade",
     "contact": "Contato"
   },
   "home": {
@@ -81,5 +82,29 @@
     "register": "Registro",
     "expand": "Expandir",
     "compact": "Compactar"
+  },
+  "privacy_policy": {
+    "title": "Política de Privacidade do Wallet Digitalz",
+    "intro": "Este aplicativo de gerenciamento e registro de valores monetários é desenvolvido e disponibilizado pela Criar.Art Tecnologia (doravante referida como \"nós\", \"nosso\" ou \"Criar.Art\").",
+    "info_collected": {
+      "title": "Informações que coletamos",
+      "content": "Quando você utiliza o Wallet Digitalz, não coletamos nem armazenamos suas informações pessoais em nossos servidores. Todas as informações inseridas no aplicativo são armazenadas localmente no seu dispositivo e são criptografadas para garantir a segurança e privacidade dos seus dados."
+    },
+    "data_responsibility": {
+      "title": "Responsabilidade pelos dados",
+      "content": "Não nos responsabilizamos pelos dados inseridos no Wallet Digitalz. É de sua inteira responsabilidade a veracidade, segurança e privacidade dos dados que você insere e armazena no aplicativo."
+    },
+    "information_usage": {
+      "title": "Uso das informações",
+      "content": "As informações inseridas no Wallet Digitalz são exclusivamente para seu uso pessoal e não serão compartilhadas com terceiros. Utilizamos medidas de segurança adequadas para proteger seus dados contra acesso não autorizado ou divulgação."
+    },
+    "privacy_policy_changes": {
+      "title": "Alterações na política de privacidade",
+      "content": "Esta política de privacidade pode ser atualizada periodicamente para refletir alterações nas práticas de informação. Recomendamos que você revise esta política de privacidade periodicamente para se manter informado sobre como proteger suas informações."
+    },
+    "contact": {
+      "title": "Contato",
+      "content": "Se você tiver alguma dúvida ou preocupação sobre nossa política de privacidade ou sobre o Wallet Digitalz, entre em contato conosco pelo seguinte endereço de e-mail: "
+    }
   }
 }

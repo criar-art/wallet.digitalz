@@ -3,6 +3,7 @@
   "nav": {
     "home": "Başlangıç",
     "about": "Hakkında",
+    "privacy": "Gizlilik",
     "contact": "Bize Ulaşın"
   },
   "home": {
@@ -81,5 +82,30 @@
     "register": "Kayıt ol",
     "expand": "genişlet",
     "compact": "sıkıştır"
+  },
+  "privacy_policy": {
+    "title": "Wallet Digitalz Gizlilik Politikası",
+    "intro": "Bu para yönetimi ve kayıt uygulaması, Criar.Art Teknoloji tarafından geliştirilmiş ve sağlanmıştır (bundan sonra \"biz\", \"bizim\" veya \"Criar.Art\" olarak anılacaktır).",
+    "info_collected": {
+      "title": "Topladığımız Bilgiler",
+      "content": "Wallet Digitalz'ı kullandığınızda, kişisel bilgilerinizi toplamıyor veya sunucularımızda saklamıyoruz. Uygulamaya girilen tüm bilgiler, cihazınızda yerel olarak saklanır ve verilerinizin güvenliği ve gizliliğini sağlamak için şifrelenir."
+    },
+    "data_responsibility": {
+      "title": "Veri Sorumluluğu",
+      "content": "Wallet Digitalz'a girilen verilerden sorumlu değiliz. Uygulamaya girdiğiniz ve sakladığınız verilerin doğruluğu, güvenliği ve gizliliği sizin sorumluluğunuzdadır."
+    },
+    "information_usage": {
+      "title": "Bilgi Kullanımı",
+      "content": "Wallet Digitalz'a girilen bilgiler yalnızca kişisel kullanımınız içindir ve üçüncü taraflarla paylaşılmayacaktır. Verilerinizi yetkisiz erişime veya ifşaya karşı korumak için uygun güvenlik önlemleri kullanıyoruz."
+    },
+    "privacy_policy_changes": {
+      "title": "Gizlilik Politikası Değişiklikleri",
+      "content": "Bu gizlilik politikası, bilgi uygulamalarında değişiklikleri yansıtmak için periyodik olarak güncellenebilir. Bilgilerinizi nasıl koruyacağınıza dair bilgi almak için bu gizlilik politikasını düzenli olarak gözden geçirmenizi öneririz."
+    },
+    "contact": {
+      "title": "İletişim",
+      "content": "Gizlilik politikamız veya Wallet Digitalz uygulaması hakkında herhangi bir sorunuz veya endişeniz varsa, lütfen aşağıdaki e-posta adresinden bize ulaşın: "
+    }
   }
+
 }
