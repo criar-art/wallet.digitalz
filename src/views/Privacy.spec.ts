@@ -12,7 +12,7 @@ describe('Basic render Privacy', () => {
   })
 
   it('Check if the card is rendered correctly', () => {
-    expect(card.find('h2').text()).toBe('Política de Privacidade do Wallet Digitalz')
+    expect(card.find('h2').text()).toBe('Política de Privacidade')
     expect(card.findAll('p').length).toBe(6) // Verifique se todos os parágrafos estão presentes
     expect(card.findAll('h3').length).toBe(5) // Verifique se todos os títulos secundários estão presentes
   })
