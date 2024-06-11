@@ -18,7 +18,7 @@
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
   },
   "dependencies": {
-    "@vueuse/core": "^10.10.0",
+    "@vueuse/core": "^10.10.1",
     "crypto-js": "^4.2.0",
     "pinia": "^2.1.7",
     "uuid": "^10.0.0",
