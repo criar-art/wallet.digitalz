@@ -76,7 +76,7 @@ onMounted(() => {
         </v-list-item>
         <v-divider />
         <v-list-item class="mb-4" @click="toggleTheme"
-          :prepend-icon="theme === 'light' ? 'mdi-lightbulb-on' : 'mdi-lightbulb-off'">
+          :prepend-icon="theme === 'light' ? 'mdi-white-balance-sunny' : 'mdi-moon-waning-crescent'">
           <span class="text-capitalize">{{ theme }}</span>
         </v-list-item>
       </template>
