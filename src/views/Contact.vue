@@ -15,36 +15,40 @@
         <p class="text-body-1 mt-2">
           {{ $t("contact.text2") }}
         </p>
-        <ul class="ml-4">
-          <li class="text-body-1 mt-2">
-            <a
-              class="text-link"
-              href="https://criar.art/contact"
-              target="_blank"
-            >
-              criar.art
-            </a>
-          </li>
-          <li class="text-body-1 mt-2">
-            <a class="text-link" href="mailto:contato@criar.art">
-              contato@criar.art
-            </a>
-          </li>
-          <li class="text-body-1 mt-2">
-            <a class="text-link" href="mailto:lucasferreiralimax@gmail.com">
-              lucasferreiralimax@gmail.com
-            </a>
-          </li>
-          <li class="text-body-1 mt-2">
-            <a
-              class="text-link"
-              href="https://www.instagram.com/criar.art.tecnologia"
-              target="_blank"
-            >
-              instagram.com/criar.art.tecnologia
-            </a>
-          </li>
-        </ul>
+        <v-btn
+          aria-label="Acessar Criar.Art"
+          variant="tonal"
+          class="mr-4 mt-4"
+          prepend-icon="mdi-format-paint"
+          href="https://criar.art/contact"
+          target="_blank"
+          >Criar.Art
+        </v-btn>
+        <v-btn
+          aria-label="Email para contato@criar.art"
+          variant="tonal"
+          class="mr-4 mt-4"
+          prepend-icon="mdi-email"
+          href="mailto:contato@criar.art"
+          >contato@criar.art
+        </v-btn>
+        <v-btn
+          aria-label="Email para lucasferreiralimax@gmail.com"
+          variant="tonal"
+          class="mr-4 mt-4"
+          prepend-icon="mdi-email"
+          href="mailto:lucasferreiralimax@gmail.com"
+          >lucasferreiralimax@gmail.com
+        </v-btn>
+        <v-btn
+          aria-label="Acessar instagram criar.art.tecnologia"
+          variant="tonal"
+          class="mr-4 mt-4"
+          prepend-icon="mdi-instagram"
+          href="https://www.instagram.com/criar.art.tecnologia"
+          target="_blank"
+          >criar.art.tecnologia
+        </v-btn>
       </v-card>
     </v-col>
   </v-row>
