@@ -37,7 +37,7 @@
         </p>
         <p class="text-body-1">
           {{ $t('about.tech.text5') }}
-          <a class="text-link" href="https://github.com/lucasferreiralimax/wallet-digital" target="_blank">
+          <a class="text-link" href="https://github.com/criar-art/wallet-digital" target="_blank">
             {{ $t('about.tech.text6') }}
           </a>
         </p>
