@@ -72,7 +72,7 @@
           "less": "Value must be less than {value}"
         },
         "date": {
-          "required": "Data is required"
+          "required": "Date is required"
         }
       }
     }
