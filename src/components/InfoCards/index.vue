@@ -9,12 +9,12 @@ const wallet = useWalletStore()
 </script>
 
 <template>
-  <v-row v-if="wallet.getTotal || wallet.getTotalLessExpense">
-    <v-col v-if="wallet.getTotal">
+  <v-row v-if="wallet.getTotalPatrimony || wallet.getTotalLessExpense">
+    <v-col v-if="wallet.getTotalPatrimony">
       <Information
-        :title="$t('home.money')"
-        :value="parseMoney(wallet.getTotal, locale, wallet.eye)"
-        type="entry"
+        :title="$t('home.patrimony')"
+        :value="parseMoney(wallet.getTotalPatrimony, locale, wallet.eye)"
+        type="patrimony"
       />
     </v-col>
     <v-col v-if="wallet.getTotalLessExpense">

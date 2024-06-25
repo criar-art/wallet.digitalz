@@ -7,6 +7,7 @@ defineProps<{
 
 const typeColors: any = {
   investiment: 'info',
+  patrimony: 'secondary',
   expense: 'error',
   entry: 'success',
   vehicle: 'red',
@@ -30,6 +31,9 @@ const typeColors: any = {
 </template>
 
 <style>
+.highlight-top.patrimony {
+  border-top: 4px solid rgba(var(--v-theme-secondary));
+}
 .highlight-top.investiment {
   border-top: 4px solid rgba(var(--v-theme-info));
 }
