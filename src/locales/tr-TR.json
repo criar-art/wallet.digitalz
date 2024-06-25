@@ -70,6 +70,9 @@
         "value": {
           "required": "değer gerekli",
           "less": "Değer, {value} değerinden küçük olmalıdır"
+        },
+        "date": {
+          "required": "Tarih zorunludur"
         }
       }
     }
@@ -107,5 +110,4 @@
       "content": "Gizlilik politikamız veya Wallet Digitalz uygulaması hakkında herhangi bir sorunuz veya endişeniz varsa, lütfen aşağıdaki e-posta adresinden bize ulaşın: "
     }
   }
-
 }

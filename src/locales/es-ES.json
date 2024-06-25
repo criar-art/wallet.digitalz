@@ -70,6 +70,9 @@
         "value": {
           "required": "Valor es obligatorio",
           "less": "Valor debe tener menos de {value}"
+        },
+        "date": {
+          "required": "Data es obligatorio"
         }
       }
     }
