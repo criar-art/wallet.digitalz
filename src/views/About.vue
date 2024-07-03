@@ -15,6 +15,11 @@
         <p class="text-body-1">
           {{ $t('about.project.text3') }}
         </p>
+        <p class="text-body-1">
+          <a href="https://play.google.com/store/apps/details?id=com.criar.art.walletdigitalzapp" target="_blank">
+            <img width="200" src="../assets//google-play-badge.png" alt="Download Wallet Digitalz on PlayStore"/>
+          </a>
+        </p>
       </v-card>
     </v-col>
     <v-col cols="12" lg="4">
