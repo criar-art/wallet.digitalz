@@ -25,7 +25,7 @@
     "vue": "^3.4.32",
     "vue-i18n": "^9.13.1",
     "vue-router": "^4.4.0",
-    "vuetify": "^3.6.12"
+    "vuetify": "^3.6.13"
   },
   "devDependencies": {
     "@mdi/font": "^7.4.47",
@@ -33,22 +33,22 @@
     "@types/crypto-js": "^4.2.2",
     "@types/jest": "^29.5.12",
     "@types/uuid": "^10.0.0",
-    "@typescript-eslint/eslint-plugin": "^7.16.0",
-    "@typescript-eslint/parser": "^7.16.0",
+    "@typescript-eslint/eslint-plugin": "^7.16.1",
+    "@typescript-eslint/parser": "^7.16.1",
     "@vitejs/plugin-vue": "^5.0.5",
     "@vue/eslint-config-typescript": "^13.0.0",
     "@vue/test-utils": "^2.4.6",
-    "cypress": "^13.13.0",
+    "cypress": "^13.13.1",
     "eslint": "^9.7.0",
     "eslint-plugin-cypress": "^3.3.0",
     "eslint-plugin-vue": "^9.27.0",
     "jsdom": "^24.1.0",
     "start-server-and-test": "^2.0.4",
     "typescript": "^5.5.3",
-    "vite": "^5.3.3",
+    "vite": "^5.3.4",
     "vite-plugin-pwa": "^0.20.0",
     "vite-plugin-vuetify": "^2.0.3",
-    "vitest": "^2.0.2",
+    "vitest": "^2.0.3",
     "vue-eslint-parser": "^9.4.3",
     "vue-tsc": "^2.0.26"
   }
