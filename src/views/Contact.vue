@@ -56,7 +56,7 @@
 
 <style>
 .background-world {
-  background: url("@/assets/world.png") no-repeat;
+  background: url("@/assets/world.jpg") no-repeat;
   background-size: cover;
   background-position: center center;
 }
