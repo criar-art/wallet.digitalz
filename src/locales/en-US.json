@@ -87,27 +87,27 @@
     "compact": "Compact"
   },
   "privacy_policy": {
-    "title": "Privacy Policy",
-    "intro": "This app for managing and recording monetary values is developed and provided by Criar.Art Technology (hereinafter referred to as 'we', 'our', or 'Criar.Art').",
+    "title": "Privacy Policy of Wallet Digitalz",
+    "intro": "This monetary management application is developed and provided by Criar.Art Tecnologia (hereinafter referred to as \"we\", \"our\", or \"Criar.Art\").",
     "info_collected": {
       "title": "Information We Collect",
-      "content": "When you use Wallet Digitalz, we do not collect or store your personal information on our servers. All information entered in the app is stored locally on your device and encrypted to ensure the security and privacy of your data."
+      "content": "When you use Wallet Digitalz, we do not collect or store your personal information on our servers. All information entered into the app is stored locally on your device and is encrypted to ensure the security and privacy of your data."
     },
     "data_responsibility": {
       "title": "Data Responsibility",
-      "content": "We are not responsible for the data entered in Wallet Digitalz. It is your sole responsibility for the accuracy, security, and privacy of the data you input and store in the app."
+      "content": "We are not responsible for the data entered into Wallet Digitalz. It is your sole responsibility to ensure the accuracy, security, and privacy of the data you enter and store in the app."
     },
     "information_usage": {
       "title": "Use of Information",
-      "content": "The information entered in Wallet Digitalz is solely for your personal use and will not be shared with third parties. We use appropriate security measures to protect your data against unauthorized access or disclosure."
+      "content": "The information entered into Wallet Digitalz is for your personal use only and will not be shared with third parties. We use appropriate security measures to protect your data from unauthorized access or disclosure."
     },
     "privacy_policy_changes": {
-      "title": "Changes to the Privacy Policy",
-      "content": "This privacy policy may be updated periodically to reflect changes in information practices. We recommend that you periodically review this privacy policy to stay informed on how to protect your information."
+      "title": "Privacy Policy Changes",
+      "content": "This privacy policy may be updated periodically to reflect changes in information practices. We recommend that you review this policy periodically to stay informed about how we protect your information."
     },
     "contact": {
       "title": "Contact",
-      "content": "If you have any questions or concerns about our privacy policy or about Wallet Digitalz, please contact us at the following email address: "
+      "content": "If you have any questions or concerns about our privacy policy or Wallet Digitalz, please contact us at the following email address: "
     }
   }
 }

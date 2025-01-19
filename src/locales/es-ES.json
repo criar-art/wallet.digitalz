@@ -87,28 +87,27 @@
     "compact": "Comprimir"
   },
   "privacy_policy": {
-    "title": "Política de Privacidad",
-    "intro": "Esta aplicación de gestión y registro de valores monetarios está desarrollada y proporcionada por Criar.Art Tecnología (en adelante referida como \"nosotros\", \"nuestro\" o \"Criar.Art\").",
+    "title": "Política de Privacidad de Wallet Digitalz",
+    "intro": "Esta aplicación de gestión de valores monetarios es desarrollada y proporcionada por Criar.Art Tecnología (en adelante, referida como \"nosotros\", \"nuestro\" o \"Criar.Art\").",
     "info_collected": {
-      "title": "Información que recopilamos",
-      "content": "Cuando utiliza Wallet Digitalz, no recopilamos ni almacenamos su información personal en nuestros servidores. Toda la información introducida en la aplicación se almacena localmente en su dispositivo y está encriptada para garantizar la seguridad y privacidad de sus datos."
+      "title": "Información que Recopilamos",
+      "content": "Cuando usas Wallet Digitalz, no recopilamos ni almacenamos tu información personal en nuestros servidores. Toda la información ingresada en la aplicación se guarda localmente en tu dispositivo y está cifrada para garantizar la seguridad y privacidad de tus datos."
     },
     "data_responsibility": {
-      "title": "Responsabilidad de los datos",
-      "content": "No nos hacemos responsables de los datos introducidos en Wallet Digitalz. Es su responsabilidad exclusiva la veracidad, seguridad y privacidad de los datos que introduce y almacena en la aplicación."
+      "title": "Responsabilidad de los Datos",
+      "content": "No nos hacemos responsables de los datos ingresados en Wallet Digitalz. Es tu responsabilidad total la veracidad, seguridad y privacidad de los datos que ingresas y almacenas en la aplicación."
     },
     "information_usage": {
-      "title": "Uso de la información",
-      "content": "La información introducida en Wallet Digitalz es exclusivamente para su uso personal y no será compartida con terceros. Utilizamos medidas de seguridad adecuadas para proteger sus datos contra el acceso no autorizado o la divulgación."
+      "title": "Uso de la Información",
+      "content": "La información ingresada en Wallet Digitalz es exclusivamente para tu uso personal y no será compartida con terceros. Utilizamos medidas de seguridad adecuadas para proteger tus datos contra accesos no autorizados o divulgación."
     },
     "privacy_policy_changes": {
-      "title": "Cambios en la política de privacidad",
-      "content": "Esta política de privacidad puede ser actualizada periódicamente para reflejar cambios en las prácticas de información. Recomendamos que revise esta política de privacidad periódicamente para mantenerse informado sobre cómo proteger su información."
+      "title": "Cambios en la Política de Privacidad",
+      "content": "Esta política de privacidad puede ser actualizada periódicamente para reflejar cambios en las prácticas de información. Te recomendamos que revises esta política periódicamente para mantenerte informado sobre cómo protegemos tu información."
     },
     "contact": {
       "title": "Contacto",
-      "content": "Si tiene alguna pregunta o inquietud sobre nuestra política de privacidad o sobre Wallet Digitalz, contáctenos a través de la siguiente dirección de correo electrónico: "
+      "content": "Si tienes alguna pregunta o inquietud sobre nuestra política de privacidad o sobre Wallet Digitalz, por favor contacta con nosotros a la siguiente dirección de correo electrónico: "
     }
   }
-
 }
