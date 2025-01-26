@@ -42,6 +42,10 @@
   color: rgba(var(--v-theme-on-surface), var(--v-high-emphasis-opacity)) !important;
 }
 
+.v-list-item__content {
+  overflow: unset !important;
+}
+
 /* #### */
 
 .list {
