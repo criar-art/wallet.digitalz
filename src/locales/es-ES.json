@@ -1,5 +1,6 @@
 {
   "version": "Versión",
+  "language": "Idioma",
   "nav": {
     "home": "Comienzo",
     "about": "Informes",

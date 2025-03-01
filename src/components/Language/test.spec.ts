@@ -11,6 +11,6 @@ describe('Basic render Language', () => {
     expect(wrapper.exists()).toBeTruthy()
   })
   it('check label language with pt-BR', () => {
-    expect(wrapper.text()).toContain('Language pt-BR')
+    expect(wrapper.text()).toContain('Idioma pt-BRIdioma')
   })
 })
